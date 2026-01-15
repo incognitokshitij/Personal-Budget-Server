@@ -15,7 +15,7 @@ const { Authenticate } = require("./routes/authApi");
 
 //connecting to database
 mongoose.connect(
-  "mongodb+srv://kshitij:6v48gXytraIlpAko@cluster0.xcbupo1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  ""
 );
 const db = mongoose.connection;
 db.on("error", (error) => {
